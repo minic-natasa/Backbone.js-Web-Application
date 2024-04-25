@@ -1,5 +1,7 @@
 # Backbone.js-project
 
+The web application, developed using Backbone.js and other libraries — allowing for efficient task management and blog organization.
+
 Backbone.js je framework koji omogućava strukturiranje JavaScript koda po konceptu MVC što je skraćeno od “model-view-control”. Kreator ovog framework-a je Jeremy Ashkenas. 
 
 Backbone se primenjuje u aplikacijama kao što su: LinkedIn Mobile, Twitter, FourSquare, Pandora, Soundcloud i još mnogim drugim.
@@ -29,5 +31,37 @@ Njegovi glavni konkurenti su Angular i Ember. Backbone ima manju zajednicu jer j
 
 Pogodan je za pravljenje prilagodljivih i brzih aplikacija, ima praktični radni okvir, jer ne koristi puno šablona, pa samim tim programeru daje slobodu. Kreator ovog framework-a, Jeremy Ashkenas je rekao: “Ako pišete puno šablona u Backbone-u, onda ga ne koristite kako treba“.
 
-[Backbone.js.docx](https://github.com/nminic/Backbone.js-project/files/9901856/Backbone.js.docx)
+Detaljna dokumentacija: [Backbone.js.docx](https://github.com/nminic/Backbone.js-project/files/9901856/Backbone.js.docx)
+
+_____________________________________________________________
+
+
+Backbone.js is a framework that structures JavaScript code using the MVC concept, which stands for "model-view-controller." The creator of this framework is Jeremy Ashkenas.
+
+Backbone is used in applications such as LinkedIn Mobile, Twitter, FourSquare, Pandora, Soundcloud, and many others.
+
+This library enables the organization of code in a neat and efficient manner, which is particularly important for code written in jQuery, a language that is inherently messy and unorganized.
+
+The web application is divided into three main sections: the home page, the Todos application, and the Bloglist application. It was created using HTML, CSS, Backbone, Bootstrap, and Underscore libraries. Each page features a menu that facilitates navigation between pages.
+
+Home page - The simplest and most basic part of the web application. It serves as a hub that gathers all sections of the application and has no other functionality. In the menu at the top of the page, there are links to the Todos and Bloglist applications, as well as a logo.
+
+Todos - This part of the web application is designed to remind users of their tasks. It allows users to enter tasks, check them off as completed, filter tasks, and delete them.
+
+The first step involves entering a task in a textbox. In the application, checkboxes on the left side mark the completion of tasks, which are then filtered into categories: All, Active, and Completed. Hovering over a task displays an 'x' on the right side, which can be clicked to delete the task.
+
+Bloglist - A relatively simple application used for organizing blogs into an appropriate list. Its functionalities include adding, editing, and deleting blogs from the list.
+
+To add a new blog, click the 'Add' button after filling in the Author, Title, and URL fields. This process can be repeated an unlimited number of times. Content of previously entered data can be modified, and after confirming the changes, the list updates with the new information. A blog can also be removed from the list by pressing the 'Delete' button.
+
+Backbone is part of the Todos and Bloglist applications and enables them to function dynamically.
+
+Conclusion: Backbone is more of a library than a framework that offers the possibility of creating richer web applications. It involves using components and predefined methods and properties. It can serve as a foundation for creating one's own framework, and examples of frameworks based on Backbone include Aura, Geppetto, Marionette, Thorax, and Chaplin.
+
+Its main competitors are Angular and Ember. Backbone has a smaller community because it emerged later compared to its competitors, but its advantage is the small download size, which is compressed and minimized, and amounts to 6.4K.
+
+It is suitable for creating adaptable and fast applications and provides a practical framework, as it does not use many templates, thus giving developers more freedom. Jeremy Ashkenas, the creator of this framework, has said, "If you're writing a lot of templates in Backbone, you're not using it properly."
+
+Detailed documentation: [Backbone.js.docx](https://github.com/nminic/Backbone.js-project/files/9901856/Backbone.js.docx)
+
 
