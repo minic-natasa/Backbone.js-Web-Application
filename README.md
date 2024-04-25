@@ -1,6 +1,6 @@
 # Backbone.js-project
 
-The web application developed using Backbone.js - allowing for efficient task management and blog organization.
+The web application developed with Backbone.js enables efficient task management and blog organization
 
 Backbone.js je framework koji omogućava strukturiranje JavaScript koda po konceptu MVC što je skraćeno od “model-view-control”. Kreator ovog framework-a je Jeremy Ashkenas. 
 
