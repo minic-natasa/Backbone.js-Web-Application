@@ -1,4 +1,4 @@
-# Backbone.js-project
+# Backbone.js-Web-Application
 
 The web application developed with Backbone.js enables efficient task management and blog organization
 
